@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "esnext",
+    "types": ["vite/client"], 
     "lib": [
       "dom",
       "dom.iterable",
@@ -22,5 +23,5 @@
   },
   "include": [
     "src"
-  ]
+, "src/index.tsx"  ]
 }
